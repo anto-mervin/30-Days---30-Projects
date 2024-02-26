@@ -1,0 +1,35 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+nav>ul {
+    margin-left: 40%;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+nav {
+    background-color: black;
+    padding: 30px 0;
+}
+
+nav>ul>li>a:hover {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
